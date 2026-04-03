@@ -13,7 +13,16 @@ Learnin GIT amd Python Foundation
   git add .
   git commit -m "feat: Initial Setup"
 
-  git remove add origin https://github_address
+  git remove add origin https://github.com/AnvarjonIbrohimov/practice.git
   git push origin master
   git pull origin master
 ```
+
+## Python Foundation
+
+- Primitive Variable
+- Function
+- Object
+- Class deep dive
+- Operation & Condition 
+- Loops
