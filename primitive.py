@@ -38,3 +38,19 @@ result7 = course.split()    # stringni bo'sh joy bo'yicha bo'lib, ro'yxatga ayla
 print(f"the split course is: {result7}")
 
 print("================ boolean =======================")
+# function > type() input() bool() int() str() 
+y = input("Give your value for y: ")
+print("y:", y)
+
+result7 = y.isnumeric()
+print(f"the input value is numeric: {result7}")
+
+# TRUTHY vs FALSY value 
+# TRUTHY: 1, -1, " ", [1, 2, 3], (1, 2), {"key": "value"}, True
+# FALSY: 0, "", [], (), {}, False, None
+test_falsy = ""
+print("The FALSY:", bool(test_falsy))
+test_falsy = "" or 0 or [] or () or {} or False or None
+print("The FALSY:", bool(test_falsy))
+test_truthy = " " and [1, 2, 3] and (1, 2) and {"key": "value"} and True
+print("The TRUTHY:", bool(test_truthy))

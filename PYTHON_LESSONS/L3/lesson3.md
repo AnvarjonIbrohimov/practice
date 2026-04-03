@@ -22,3 +22,4 @@ In pyhthon, there are builtin tools:
 
 result = counter.bit_count()
 result2 = counter.numerator
+.isnumeric()   
