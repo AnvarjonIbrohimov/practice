@@ -49,3 +49,19 @@ result3 = give_greet(name="Anvarjon", age=25) # Keywords arguments
 result4 = give_greet("Elena")          # Keywordsiz
 print("result3:", result3)
 print("result4:", result4)
+
+print("================ Scope: local vs global variable =======================")
+# Scope > bu variablega qaysi qismda murojaat qilish mumkinligini belgilaydi.
+# Local variable > bu variable function ichida yaratilgan va faqat function ichida mavjud bo'lgan variable.
+# Global variable > bu variable function tashqarisida yaratilgan va butun kod bo'ylab mavjud bo'lgan variable.
+
+b = 10 #3 global variable
+
+# DEFINE
+def calculate(a,b): #2 parameters
+    c= a * b     #1 local variable
+    print(f"the sum of {a} and {b} is: {c}")
+
+
+# CALL
+calculate(5, 10)
