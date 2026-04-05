@@ -1,4 +1,10 @@
 *****************************************************************************************
+# 🔹 1. Standard mode nima?
+  👉 Bu oddiy loyiha (single app)
+
+# 🔥 2. Monorepo mode nima?
+  👉 Bu bir nechta app + shared code bitta project ichida
+*****************************************************************************************
                     GraphQL API   ==> kearkli data
 👉 Client (frontend) o‘zi kerakli datani tanlab oladi
 

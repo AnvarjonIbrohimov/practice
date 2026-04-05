@@ -27,5 +27,7 @@ print(greeting)
 print("*"*35)
 
 
-
+i = 2
+for i in range(5):
+    print(i)
 

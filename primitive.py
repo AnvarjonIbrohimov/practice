@@ -54,3 +54,17 @@ test_falsy = "" or 0 or [] or () or {} or False or None
 print("The FALSY:", bool(test_falsy))
 test_truthy = " " and [1, 2, 3] and (1, 2) and {"key": "value"} and True
 print("The TRUTHY:", bool(test_truthy))
+from encodings.punycode import T
+
+
+# import turtle
+# t = turtle.Turtle()
+# t.left(75)
+# t.forward(100)
+# t.right(150)
+# t.forward(100)
+# t.backward(50)
+# t.right(105)
+# t.forward(30)
+# turtle.done()
+
