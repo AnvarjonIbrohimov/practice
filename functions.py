@@ -34,3 +34,18 @@ print("result2:", result2)
 # Functionlar criteriya bo'yicha 2 ga bo'linadi void function va return function.
 # void function > bu function hech qanday qiymat qaytarmaydi, ya'ni return
 # return function > bu function qiymat qaytaradi, ya'ni return kalit so'zidan foydalanamiz.
+
+
+print("================ Keyword & default arguments =======================")
+# DEFINE
+def give_greet(name, age=12):
+    print("give_greet is executed")
+    return f"Hello, {name}! You are {age} years old."
+
+
+# CALL
+# Keyword arguments > bu argumentsni functionga berishda, argumentning nomini ko'rsatib berish.
+result3 = give_greet(name="Anvarjon", age=25) # Keywords arguments
+result4 = give_greet("Elena")          # Keywordsiz
+print("result3:", result3)
+print("result4:", result4)
