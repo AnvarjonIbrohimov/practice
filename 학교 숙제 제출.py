@@ -242,6 +242,8 @@ if ( (year % 4 ==0 and year % 100 != 0)or year % 400 == 0):
     print(year,"년 윤년 입니다.")
 else:
     print(year,"년이 윤년이 아닙니다")
+
+
 #이자 방정식
 import math
 a = float(input("A = "))
@@ -257,6 +259,8 @@ elif d>0:
     print("x=",(-b - math.sqrt(d)) / (2.0*a))
 else:
     print("실근이 존재하지 않음")
+
+
 #면적 계산기
 choice = int(input('도형을 입력하시오(1: 사각형, 2: 삼각형, 3: 원: '))
 if(choice==1):
@@ -271,6 +275,7 @@ else:
     r = int(input("반지름: "))
     area = 3.141592*r*r
 print("면적=",area)
+
 #직선 방정식 구하기
 x1 = int(input('첫 번째 점의 x좌표: '))
 y1 = int(input('첫 번째 점의 y좌표: '))
@@ -282,6 +287,8 @@ if ( (x2-x1)!=0):
     print("직선의 방정식은",m, 'x+',q)
 else:
     print('직선의 방정식은 x=',x1)
+
+
 #숫자 맞추기 게임
 answer = 5
 print("숫자 게임에 오신 것을 환영합니다.")
@@ -294,6 +301,8 @@ elif guess > answer:
 else:
     print("너무 작음")
 print("게임 종료")
+
+
 #가위 바위 보
 player = input("(가위, 바,위 보)중에서 하나를 선택하세요: ");
 computer = "바위";

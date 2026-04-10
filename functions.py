@@ -54,6 +54,7 @@ print("================ Scope: local vs global variable ======================="
 # Scope > bu variablega qaysi qismda murojaat qilish mumkinligini belgilaydi.
 # Local variable > bu variable function ichida yaratilgan va faqat function ichida mavjud bo'lgan variable.
 # Global variable > bu variable function tashqarisida yaratilgan va butun kod bo'ylab mavjud bo'lgan variable.
+# priority > local variable > global variable
 
 b = 10 #3 global variable
 
