@@ -40,8 +40,20 @@ print(asin(1))            # 1.5707963267948966 (pi/2) bu
     # Abstraction => bu murakkab tizimlarni soddalashtirish va ularni boshqarish uchun kerakli bo'lgan xususiyatlar va metodlarni ajratib ko'rsatish. Bu, odatda, abstract classlar yoki interface'lar yordamida amalga oshiriladi.
 # FP => Functional Programming: bu chiziqli dasturlash paradigmasi bo'lib, funksiyalarni birinchi darajali obektlar sifatida ko'rib chiqadi. FP da funksiyalar o'zaro aloqada bo'lishi mumkin va ular o'zgaruvchan holatga ega emas.
 
-print("==================== Iterable object & RANGE ====================")
+print("==================== Error handling system ====================")
+car_dict = dict(name="Toyota", year=2026, electric=True)
 
+try:
+    print("passed here:")
+    result = car_dict["year"]
+    print("result: ", result)
+# except KeyError as err:
+except Exception as err:
+    print("No origin data, General Error", err)
+else:
+    print("Executed successfully without errors")
+finally:
+    print("Final closing logic")
 
 
 
