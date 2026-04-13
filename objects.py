@@ -5,6 +5,7 @@
     (4) Error handling system
 '''
 import array   # package/module
+from email import message
 import math  # bu pythonning standart kutubxonasi bo'lib, matematik funksiyalarni o'z ichiga oladi. Masalan, sqrt, ceil, floor, fabs va hokazo.
 from math import sqrt, ceil, floor, fabs, asin  # bu math modulidan faqat kerakli funksiyalarni import qilish imkonini beradi. Bu, odatda, kodni yanada o'qilishi va samarali qilish uchun ishlatiladi.
 print("==================== What is an object? ====================")
@@ -44,10 +45,11 @@ print("==================== Error handling system ====================")
 car_dict = dict(name="Toyota", year=2026, electric=True)
 
 try:
+    a = car_dict.message["kukku"]
     print("passed here:")
     result = car_dict["year"]
     print("result: ", result)
-# except KeyError as err:
+# except (KeyError, AttributeError) as err:
 except Exception as err:
     print("No origin data, General Error", err)
 else:

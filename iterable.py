@@ -17,10 +17,15 @@ for i in range(5):    # [ 0,5 )
     print(f"the elent {i}")
 
 print("========================= DICTIONARY =======================")
-# Dictionaryni JSON object xam deb ataladi
+# Dictionaryni JSON object xam deb ataladi 
+# 👉 Dictionary — bu key-value (kalit–qiymat) ko‘rinishida ma’lumot saqlovchi data type
 person_obj = dict(name="Jasur", age=15, single=True)  # kop holatlarda shu ishlatiladi
 person = {"name": "Alex", "age": 20, "single": True}  
+person_obj["phone"]="01012345678"
+print("person_obj:", person_obj)
+person_obj["email"] = "201946044@hs.ac.kr"
 
+print("========================= DICTIONARY =======================")
 print("person_obj:", person_obj)
 print("person:", person)
 
@@ -32,6 +37,7 @@ print("name:", name)
 name1 = person_obj.get("color") # bunda esa error orniga None qiymat qaytaradi
 print("name1:", name1)
 hobby = person_obj.get("hobby", "Futbool")  # bundan shu qoymatni qoshib beradi
+print("hobby:", hobby)
 
 del person_obj["single"]   # bu shu key dagi datani delete qilib beradi
 for key in person_obj:
