@@ -34,7 +34,7 @@ print(asin(1))            # 1.5707963267948966 (pi/2) bu
 
 # Programming paradingms 
 # OOP => Object Oriented Programming: bu dasturlash paradigmasi obektlarga asoslangan bo'lib, obektlar o'zining xususiyatlari va metodlariga ega. OOP da classlar yordamida obektlar yaratiladi va ular o'zaro aloqada bo'lishi mumkin.
-  # OOP 4: Encapsulation, Inheritance, Polymorphism, Abstraction
+# OOP 4: Encapsulation, Inheritance, Polymorphism, Abstraction
     # Encapsulation => bu obektning xususiyatlari va metodlarini bir joyga to'plash va ularni tashqi dunyodan himoya qilish. Bu, odatda, classlar yordamida amalga oshiriladi.
     # Inheritance => bu bir classning boshqa classdan xususiyatlari va metodlarini
     # Polymorphism => bu bir nechta classning bir xil nomdagi metodlarini turli xil ishlatish imkonini beradi. Bu, odatda, method overriding yoki method overloading orqali amalga oshiriladi.

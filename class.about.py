@@ -62,16 +62,16 @@ class Car():
     description = "This class makes car"
 
     
-    def __new__(cls, *args):
+    def __new__(cls, *args):  # bu yangi object yasayabdi  (cls) bu classning ozini anglatadi
         print("*__new__")
-        return super().__new__(cls)
+        return super().__new__(cls)  # bu yuqoridagi class dan object yaratish uchun 
     
-    def __init__(self, name, year):
-      self.name = name
-      self.year = year
+    def __init__(self, name, year): 
+        self.name = name
+        self.year = year
 
     #method
-    def start_engine(self):
+    def start_engine(self):  
         print(f"the {self.name} started engine!")
 
     def stop_engine(self):
@@ -87,7 +87,6 @@ class Car():
 my_car = Car("tOYOTA", 2024)
 my_car.start_engine()
 my_car.stop_engine()
-
 
 print("-----------------")
 your_car = Car("Ferrari", 2025)
