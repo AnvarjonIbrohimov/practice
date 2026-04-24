@@ -58,3 +58,32 @@ print(aaa is bbb)  # False (xotirada boshqa obyekt)
 nums = [1, 2, 3]
 print("nums:", nums)
 print("2 in nums: ", 2 in nums)  # True
+
+print("========= Condition =========")
+
+age = 20
+if age >= 18:
+    print("Kirish mumkin")
+
+age2 = 16
+if age2 >= 18:
+    print("Kirish mumkin")
+else:
+    print("Kirish mumkin emas")
+
+score = 80
+if score >= 90:
+    print("A")
+elif score >= 70:
+    print("B")
+else:
+    print("C")
+
+age3 = 20
+has_id = True
+if age3 >= 18 and has_id:
+    print("Kirish mumkin!")
+
+person = "adult" if age3 > 18 else "minor"
+print("person: ", person)
+
